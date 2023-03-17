@@ -100,7 +100,7 @@
             txtMD5.Location = new Point(115, 84);
             txtMD5.Name = "txtMD5";
             txtMD5.ReadOnly = true;
-            txtMD5.Size = new Size(567, 23);
+            txtMD5.Size = new Size(619, 23);
             txtMD5.TabIndex = 4;
             // 
             // label2
@@ -117,7 +117,7 @@
             txtSHA1.Location = new Point(115, 116);
             txtSHA1.Name = "txtSHA1";
             txtSHA1.ReadOnly = true;
-            txtSHA1.Size = new Size(567, 23);
+            txtSHA1.Size = new Size(619, 23);
             txtSHA1.TabIndex = 6;
             // 
             // label3
@@ -134,7 +134,7 @@
             txtsha256.Location = new Point(115, 151);
             txtsha256.Name = "txtsha256";
             txtsha256.ReadOnly = true;
-            txtsha256.Size = new Size(567, 23);
+            txtsha256.Size = new Size(619, 23);
             txtsha256.TabIndex = 8;
             // 
             // label4
@@ -151,7 +151,7 @@
             txtsha384.Location = new Point(115, 188);
             txtsha384.Name = "txtsha384";
             txtsha384.ReadOnly = true;
-            txtsha384.Size = new Size(567, 23);
+            txtsha384.Size = new Size(619, 23);
             txtsha384.TabIndex = 10;
             // 
             // label5
@@ -168,7 +168,7 @@
             txtsha512.Location = new Point(115, 220);
             txtsha512.Name = "txtsha512";
             txtsha512.ReadOnly = true;
-            txtsha512.Size = new Size(567, 23);
+            txtsha512.Size = new Size(619, 23);
             txtsha512.TabIndex = 12;
             // 
             // statusStrip1
@@ -176,7 +176,7 @@
             statusStrip1.Items.AddRange(new ToolStripItem[] { statusLbl, statusPGBar });
             statusStrip1.Location = new Point(0, 257);
             statusStrip1.Name = "statusStrip1";
-            statusStrip1.Size = new Size(694, 22);
+            statusStrip1.Size = new Size(746, 22);
             statusStrip1.TabIndex = 13;
             statusStrip1.Text = "statusStrip1";
             // 
@@ -197,7 +197,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, helpToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(694, 24);
+            menuStrip1.Size = new Size(746, 24);
             menuStrip1.TabIndex = 14;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -211,7 +211,7 @@
             // quitToolStripMenuItem
             // 
             quitToolStripMenuItem.Name = "quitToolStripMenuItem";
-            quitToolStripMenuItem.Size = new Size(180, 22);
+            quitToolStripMenuItem.Size = new Size(97, 22);
             quitToolStripMenuItem.Text = "Quit";
             quitToolStripMenuItem.Click += quitToolStripMenuItem_Click;
             // 
@@ -225,14 +225,14 @@
             // aboutToolStripMenuItem
             // 
             aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            aboutToolStripMenuItem.Size = new Size(180, 22);
+            aboutToolStripMenuItem.Size = new Size(107, 22);
             aboutToolStripMenuItem.Text = "About";
             // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(694, 279);
+            ClientSize = new Size(746, 279);
             Controls.Add(statusStrip1);
             Controls.Add(menuStrip1);
             Controls.Add(txtsha512);
