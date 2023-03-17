@@ -61,7 +61,7 @@
             // 
             // btnSelectFile
             // 
-            btnSelectFile.Location = new Point(526, 39);
+            btnSelectFile.Location = new Point(578, 38);
             btnSelectFile.Name = "btnSelectFile";
             btnSelectFile.Size = new Size(75, 23);
             btnSelectFile.TabIndex = 0;
@@ -73,12 +73,12 @@
             // 
             txtFile.Location = new Point(12, 39);
             txtFile.Name = "txtFile";
-            txtFile.Size = new Size(508, 23);
+            txtFile.Size = new Size(560, 23);
             txtFile.TabIndex = 1;
             // 
             // btnHash
             // 
-            btnHash.Location = new Point(607, 39);
+            btnHash.Location = new Point(659, 38);
             btnHash.Name = "btnHash";
             btnHash.Size = new Size(75, 23);
             btnHash.TabIndex = 2;
