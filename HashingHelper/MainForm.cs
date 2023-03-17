@@ -72,7 +72,7 @@ namespace HashingHelper
             }
         }
 
-        private async void btnHash_Click(object sender, EventArgs e)
+        private void btnHash_Click(object sender, EventArgs e)
         {
             DateTime start = DateTime.Now;
             DateTime finish;
