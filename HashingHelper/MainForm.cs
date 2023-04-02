@@ -1,5 +1,6 @@
 using System.Reflection.PortableExecutable;
 using System.Security.Cryptography;
+using System.Text;
 
 namespace HashingHelper
 {
@@ -66,8 +67,8 @@ namespace HashingHelper
                                                        FileShare.ReadWrite))
                 {
                     var hash = cryptoService.ComputeHash(fileStream);
-                    var hashString = Convert.ToBase64String(hash);
-                    return hashString.TrimEnd('=');
+                    var hashString = BitConverter.ToString(hash);
+                    return hashString.Replace("-", string.Empty);
                 }
             }
         }
